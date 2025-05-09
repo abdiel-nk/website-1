@@ -359,7 +359,46 @@ header a{
     }
 }
 
-@media screen and (max-width: 678px){
+@media screen and (max-width: 1365px){
+    .carousel .list .item .content{
+        padding-right: 0;
+        top: 10%;
+    }
+    .carousel .list .item .content .title
+    {
+        font-size: 40px;
+    }
+    .carousel .list .item .content #first{
+        width: 70%;
+    }
+    .carousel .list .item .content .des{
+        width: 45%;
+    }
+    .arrows {
+        margin-top: 15px;
+    }
+    
+
+    
+    
+    .thumbnail {
+        position: absolute;
+        bottom: 10px;
+        left:50%;
+        width: max-content;
+        z-index: 90;
+        display: flex;
+        gap: 20px;
+    }
+    .thumbnail .item{
+        height: 160px;
+        width: 120px;
+    }
+    .thumbnail .item .img{
+        height:100px;
+    }
+}
+@media screen and (max-width: 678px) and (max-width:1330px){
     .carousel .list .item .content{
         padding-right: 0;
     }
