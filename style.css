@@ -359,14 +359,14 @@ header a{
     }
 }
 
-@media screen and (max-width: 1365px){
+@media screen and (max-width: 1280px){
     .carousel .list .item .content{
         padding-right: 0;
         top: 10%;
     }
     .carousel .list .item .content .title
     {
-        font-size: 40px;
+        font-size: 20px;
     }
     .carousel .list .item .content #first{
         width: 70%;
@@ -375,12 +375,14 @@ header a{
         width: 45%;
     }
     .arrows {
-        margin-top: 15px;
+        margin-top: 5px;
     }
     
-
-    
-    
+}
+@media screen and (max-width: 805px){
+    .carousel .list .item .content{
+        top: 10%;
+    }
     .thumbnail {
         position: absolute;
         bottom: 10px;
@@ -398,19 +400,29 @@ header a{
         height:100px;
     }
 }
-@media screen and (max-width: 678px) and (max-width:1330px){
+
+@media screen and (max-width: 678px){
     .carousel .list .item .content{
         padding-right: 0;
     }
     .carousel .list .item .content .title
     {
-        font-size: 40px;
+        font-size: 70px;
+    }
+    .thumbnail {
+        position: absolute;
+        bottom: 0px;
+        left:50%;
+        width: max-content;
+        z-index: 90;
+        display: flex;
+        gap: 20px;
     }
 }
 @media screen and (max-width: 545px){
     .carousel .list .item .content{
         padding-right: 0;
-        top: 11%;
+        top: 7%;
     }
     .carousel .list .item .content .title & .topic{
         font-size: 15px;
@@ -426,12 +438,15 @@ header a{
     .carousel .list .item .content .title{
         font-size: 30px;
     }
+    .carousel .list .item .content .des{
+        font-size: 18px;
+    }
     .carousel .list .item .buttons{
         justify-content: center;
     }
     .thumbnail .item {
-        width: 120px;
-        height: 190px;
+        width: 140px;
+        height: 230px;
         flex-shrink: 0;
         position: relative;
     }
@@ -444,6 +459,9 @@ header a{
     }
     .carousel .list .item .content .title{
         font-size: 30px;
+    }
+    .carousel .list .item .content .des{
+        font-size: 16px;
     }
     .thumbnail .item {
         margin-top: 200px;
