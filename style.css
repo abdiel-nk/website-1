@@ -455,14 +455,14 @@ header a{
 
 @media screen and (max-width: 380px ){
     .carousel .list .item .content{
-        top: 11%;
+        top: 10%;
         padding-right: 0;
     }
     .carousel .list .item .content .title{
-        font-size: 30px;
+        font-size: 25px;
     }
     .carousel .list .item .content .des{
-        font-size: 12px;
+        font-size: 11px;
     }
     .thumbnail .item {
         margin-top: 200px;
