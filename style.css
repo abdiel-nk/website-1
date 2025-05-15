@@ -369,16 +369,17 @@ header a{
         font-size: 20px;
     }
     .carousel .list .item .content #first{
-        width: 70%;
+        width: 100%;
     }
     .carousel .list .item .content .des{
-        width: 45%;
+        width:100%;
     }
     .arrows {
         margin-top: 5px;
     }
     
 }
+
 @media screen and (max-width: 805px){
     .carousel .list .item .content{
         top: 10%;
@@ -439,7 +440,7 @@ header a{
         font-size: 30px;
     }
     .carousel .list .item .content .des{
-        font-size: 18px;
+        font-size: 12px;
     }
     .carousel .list .item .buttons{
         justify-content: center;
@@ -454,14 +455,14 @@ header a{
 
 @media screen and (max-width: 380px ){
     .carousel .list .item .content{
-        top: 13%;
+        top: 11%;
         padding-right: 0;
     }
     .carousel .list .item .content .title{
         font-size: 30px;
     }
     .carousel .list .item .content .des{
-        font-size: 16px;
+        font-size: 12px;
     }
     .thumbnail .item {
         margin-top: 200px;
@@ -471,4 +472,4 @@ header a{
         position: relative;
     }
     
-}
+} 
